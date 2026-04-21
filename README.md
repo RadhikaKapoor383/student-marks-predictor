@@ -22,12 +22,15 @@ Three models are built and compared:
 student-marks-predictor/
 │
 ├── marks-predictor.ipynb              # Main Jupyter Notebook (full pipeline)
-├── student_scores.csv                 # Dataset (20 student records)
 │
-├── regression_plot.png                # Hours Studied vs Marks (simple regression)
-├── regression_plot_sleep_hours.png    # Sleep Hours vs Marks (simple regression)
-├── regression_plot_multiple_linear.png# All 3 features vs Marks (multiple regression)
-├── actual_vs_predicted.png            # Actual vs Predicted scatter plot
+├── data/
+│   └── student_scores.csv             # Dataset (20 student records)
+│
+├── images/
+│   ├── regression_plot.png            # Hours Studied vs Marks (simple regression)
+│   ├── regression_plot_sleep_hours.png# Sleep Hours vs Marks (simple regression)
+│   ├── regression_plot_multiple_linear.png # All 3 features vs Marks
+│   └── actual_vs_predicted.png        # Actual vs Predicted scatter plot
 │
 └── README.md
 ```
