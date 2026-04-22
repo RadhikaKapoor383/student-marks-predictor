@@ -10,9 +10,9 @@ This project explores how study habits affect academic performance. It trains re
 
 Three models are built and compared:
 
-- **Simple Linear Regression** — Marks predicted from `Hours_Studied`
-- **Simple Linear Regression** — Marks predicted from `Sleep_Hours`
-- **Multiple Linear Regression** — Marks predicted from `Hours_Studied`, `Sleep_Hours`, and `Play_Hours` combined
+- **Simple Linear Regression** — Marks predicted from `Hours_Studied`.
+- **Simple Linear Regression** — Marks predicted from `Sleep_Hours`.
+- **Multiple Linear Regression** — Marks predicted from `Hours_Studied`, `Sleep_Hours`, and `Play_Hours` combined.
 
 ---
 
